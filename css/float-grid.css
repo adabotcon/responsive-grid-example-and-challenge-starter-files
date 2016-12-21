@@ -41,8 +41,14 @@
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
    *
    */
+   
+   /*Added extra padding to get it so the boxes 
+   don't run into each other. But in the example that 
+   isn't needed?*/
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
+  padding-top: 1.04166666%;
+  padding-bottom: 1.04166666%;
 }
 
 /* Mobile defaults */
@@ -60,14 +66,16 @@
 
   /* 4 columns */
   .col-4 {
+    width: 33.33%;
   }
 
   /* 6 columns */
   .col-6 {
-
+    width: 50%;
   }
 
   /* 12 columns */
   .col-12 {
+    width: 100%;
   }
 }
